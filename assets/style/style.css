@@ -87,9 +87,8 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 18px;
     width: 70%;
-    height: 450px;
 
 }
 
@@ -99,7 +98,7 @@ a {
     justify-content: space-between;
     width: 444px;
     background-color: rgba(242, 242, 242, 0.4);
-    padding: 10%;
+    padding: 4.5%;
 }
 
 .slider-block__btn {
@@ -108,8 +107,28 @@ a {
     flex-grow: 0;
 }
 
+.slider-block__name-goods {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FF9900;
+}
+
+.slider-block__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    /* or 121% */
+
+
+    color: #000000;
+}
+
 .slider-block__description {
     color: rgba(35, 47, 62, 0.48);
+    margin-bottom: 5%;
 }
 
 
@@ -128,4 +147,85 @@ a {
     color: rgba(20, 110, 180, 1);
     background: #FFFFFF;
     border: 2px solid #146EB4;
+}
+.categories-container, .seller-container{
+margin: 80px;
+}
+
+.categories-title{
+    font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+}
+
+.categories-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-bocks {
+    width: 100px;
+    height: 160px;
+    background: #F9F9F9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #232F3E;
+}
+.seller-title{
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+}
+.seller-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 279px;
+
+    background: rgba(242, 242, 242, 0.4);
+}
+.btn-block{
+    display: flex;
+    
+}
+.seller-block__gender-class{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height, or 123% */
+    
+    color: rgba(35, 47, 62, 0.48); 
+}
+
+.seller-block__name-goods{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    /* identical to box height, or 107% */
+    
+    
+    color: #000000; 
+}
+
+
+
+.seller-price-svg{
+    display: flex;
+
 }
