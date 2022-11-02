@@ -1,3 +1,131 @@
-body{
-    font-family: 'Poppins', sans-serif;  
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 32px;
+    gap: 10px;
+    cursor: pointer;
+    width: 94px;
+    height: 38px;
+}
+
+.header-container {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 108px;
+
+}
+
+.header-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 40px;
+    width: 132px;
+    height: 108px;
+    background: #232F3E;
+}
+
+.header-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-navbar__input {
+    width: 600px;
+    height: 48px;
+    color: rgba(35, 47, 62, 0.16);
+    background-color: rgba(35, 47, 62, 0.16);
+    border-radius: 8px;
+    border: none;
+}
+
+.header-navbar__block-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.block-img__sa {
+    margin-left: 5px;
+}
+
+.btn-black {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #fff;
+    background-color: #232F3E;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.slider-conatiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    width: 70%;
+    height: 450px;
+
+}
+
+.slider-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 444px;
+    background-color: rgba(242, 242, 242, 0.4);
+    padding: 10%;
+}
+
+.slider-block__btn {
+    display: flex;
+    order: 1;
+    flex-grow: 0;
+}
+
+.slider-block__description {
+    color: rgba(35, 47, 62, 0.48);
+}
+
+
+.slider-block-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(20, 110, 180, 1);
+    border: 2px solid #146EB4;
+    color: #fff;
+}
+
+.btn-white {
+    margin-left: 12px;
+    color: rgba(20, 110, 180, 1);
+    background: #FFFFFF;
+    border: 2px solid #146EB4;
 }
